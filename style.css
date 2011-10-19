@@ -1,0 +1,53 @@
+/*  
+Theme Name: KISSS (Keep It Simple, Stupid & Social)
+Theme URI: http://christianjessen.net/
+Description: Theme build with Bootstrap from Twitter, designed to be simple & social
+Version: 1.0
+Author: Christian Jessen
+Author URI: http://christianjessen.net/
+*/
+
+/*
+    RESET
+*/
+* { margin: 0; padding: 0; }
+body { font: 14px/1.1 Helvetica, Arial, Tahoma; }
+.clear { clear: both; }
+img, a img { border: none; }
+input { outline: none; }
+
+/*
+ * CONTENT
+ */
+#content {}
+#content p { color: #000000; padding: 0 0 5px 0; }
+#content ul { color: #000000; }
+#content li { color: #000000; font-size: 13px; }
+#content p.timestamp { font-size: 80%; padding: 0; color: gray; }
+
+/*
+ * COMMENTS
+ */
+#comments {}
+#comments ul { list-style: none; margin: 0; padding: 0; }
+#comments li { margin: 3px 0 10px 0; }
+#commments .commentmetadata {  }
+
+/*
+ * SIDEBAR
+ */
+#sidebar { }
+#sidebar ul { list-style: none; margin: 0; }
+#sidebar li { list-style: none; margin: 0 0 5px 0; }
+#sidebar h2 { font-size: 120%; margin: 0; padding: 0; }
+#sidebar .widget {
+	font-size: 90%;
+	border: 1px solid #CCCCCC;
+	padding: 0 5px 0 5px;
+	background-color: #F1F1F1;
+	background-color: rgba(241, 241, 241,0.7);
+	margin: 0 0 20px 0;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
