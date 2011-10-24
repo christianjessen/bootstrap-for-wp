@@ -1,11 +1,12 @@
 <?php
 get_header();
 ?>
+      <div class="content">
 	<div class="page-header">
-		<h1><?php bloginfo('name'); ?><?php wp_title(); ?></h1>
-	</div>
-	<div class="row">
-		<div class="span10">
+		<h1><?php bloginfo('name'); ?><small><?php wp_title(); ?></small></h1>
+        </div>
+        <div class="row">
+          <div class="span10">
 
 	<!-- Call wordpress posts -->
 	<?php if(have_posts()) : ?>
@@ -28,7 +29,12 @@ get_header();
 
 	<?php else : ?>
 	<!-- If no post is found. This is the 404-page -->
-		<h2>I didn't write any posts like that..</h2>
+      <div class="content">
+	<div class="page-header">
+		<h1>I didn't write any posts like that..</h1>
+        </div>
+        <div class="row">
+          <div class="span10">
 		<p>
 			Perhaps you should try searching for something else?
 		</p>

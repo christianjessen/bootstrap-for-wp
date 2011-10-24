@@ -4,11 +4,13 @@ get_header();
 	<!-- Call wordpress page -->
 	<?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
 
+
+      <div class="content">
 	<div class="page-header">
 		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h1><?php the_title(); ?></h1></a>
-	</div>
-	<div class="row">
-		<div class="span10">
+        </div>
+        <div class="row">
+          <div class="span10">
 		<?php the_content(); ?>
 
 		<?php endwhile; ?>
@@ -19,13 +21,13 @@ get_header();
 		<!-- End list of wordpress posts -->
 	</div>
 	<?php else : ?>
+      <div class="content">
 	<div class="page-header">
-		<h1>You reached a dead end..</h1>
-	</div>
-	<div class="row">
-		<div class="span10">
+		<h1>This is a dead end..<small> - Looks like somebody ate the post..</small></h1>
+        </div>
+        <div class="row">
+          <div class="span10">
 		<!-- If no post is found. This is the 404-page -->
-			<h2></h2>
 			<p class="timestamp">No more to see here - <?=date("d/m-Y - H:i:s", time());?></p>
 			<p>We are very sorry to tell you, that you reached a dead end. There is no content on the adress you typed in. If you followed a link from another page, please tell us where you came from.<br />
 			We suggest you to try clicking on another link on the site, or use the form below to search for what you where looking for.

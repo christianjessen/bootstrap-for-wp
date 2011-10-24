@@ -1,8 +1,8 @@
-			<div id="sidebar" class="span6">
+          <div id="sidebar" class="span4">
 				<ul>
 					<?php if ( !function_exists('dynamic_sidebar')
 	|| !dynamic_sidebar() ) : ?>
 	<?php endif; ?>
 				</ul>
-			</div>
+	  </div>
 <?php get_footer(); ?>

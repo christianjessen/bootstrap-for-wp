@@ -27,7 +27,7 @@ if (is_home()) {
 	<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats please -->
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="<?php echo bloginfo(stylesheet_directory) .'/bootstrap-1.1.0.min.css'; ?>" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php echo bloginfo(stylesheet_directory) .'/bootstrap.min.css'; ?>" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
@@ -49,7 +49,7 @@ if (is_home()) {
           </form>
           <ul class="nav secondary-nav">
 			<li><a href="<?php echo get_settings('home'); ?>/">Home</a></li>
-			<?php wp_list_pages('title_li=&sort_column=menu_order'); ?>
+			<?php wp_list_pages('title_li=&sort_column=menu_order&depth=1'); ?>
 			<?php  /* Old example
             <li class="active"><a href="<?php bloginfo('url'); ?>">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -59,12 +59,4 @@ if (is_home()) {
         </div>
       </div>
     </div>
-	<div style="margin: 60px 0 0 0;"><!-- We need some margin from the stupid top-bar --></div>
-	<div class="container" id="content">
-		<!-- Main hero unit for a primary marketing message or call to action -->
-		<!--
-		<div class="hero-unit">
-			<h1>Hello, world!</h1>
-			<p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
-			<p><a class="btn primary large">Learn more &raquo;</a></p>
-		</div>-->
+    <div class="container">
