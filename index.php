@@ -3,7 +3,7 @@ get_header();
 ?>
       <div class="content">
 	<div class="page-header">
-		<h1><?php bloginfo('name'); ?><small><?php wp_title(); ?></small></h1>
+		<h1><?php bloginfo('name'); ?><small> - <?php bloginfo('description'); ?></small></h1>
         </div>
         <div class="row">
           <div class="span10">
