@@ -35,26 +35,6 @@ input { outline: none; }
 #comments li { margin: 3px 0 10px 0; }
 #commments .commentmetadata {  }
 
-/*
- * SIDEBAR
-#sidebar { }
-#sidebar ul { list-style: none; margin: 0; }
-#sidebar li { list-style: none; margin: 0 0 5px 0; }
-#sidebar h2 { font-size: 120%; margin: 0; padding: 0; }
-#sidebar .widget {
-	font-size: 80%;
-	margin: 0 0 20px 0;
-/*	border: 1px solid #CCCCCC;
-	padding: 0 5px 0 5px;
-	background-color: #F1F1F1;
-	background-color: rgba(241, 241, 241,0.7);
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
-*/
-}
- */
-
 
 /* Most of this code is blatantly stolen from the "container-app.html" example
  * Big thanks to Bootstrap, from Twitter.
