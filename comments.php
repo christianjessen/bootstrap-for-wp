@@ -66,59 +66,65 @@ echo $oddcomment;
 
 
 <?php if ('open' == $post->comment_status) : ?>
-
-		<h3 id="respond">Leave a Reply</h3>
+<fieldset>
+		<legend id="respond">Leave a Reply</legend>
+		<br />
 
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
 <p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php the_permalink(); ?>">logged in</a> to post a comment.</p>
 
 <?php else : ?>
 
-<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform" class="form-stacked">
+<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform" class="form-horizontal">
 <?php if ( $user_ID ) : ?>
 
 <p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?action=logout" title="Log out of this account">Logout &raquo;</a></p>
 
 <?php else : ?>
 
-<div class="clearfix">
-	<label for="author">Name <?php if ($req) echo "(required)"; ?></label>
-	<div class="input">
-		<input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="40" tabindex="1" class="xlarge" />
+<div class="control-group">
+	<label class="control-label" for="author">Name <?php if ($req) echo "(required)"; ?></label>
+	<div class="controls">
+		<input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" tabindex="1" class="input-xlarge" />
+		<p class="help-block">Please input your real name for a decent debate...</p>
 	</div>
 </div>
 
-<div class="clearfix">
-	<label for="email">Mail (will not be published) <?php if ($req) echo "(required)"; ?></label>
-	<div class="input">
-		<input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="40" tabindex="2" class="xlarge" />
+<div class="control-group">
+	<label class="control-label" for="email">Mail <?php if ($req) echo "(required)"; ?></label>
+	<div class="controls">
+		<input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="40" tabindex="2" class="input-xlarge" />
+		<p class="help-block">Your email will not be published</p>
 	</div>
 </div>
 
-<div class="clearfix">
-	<label for="url">Website</label>
-	<div class="input">
-		<input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="40" tabindex="3" class="xlarge" />
+<div class="control-group">
+	<label class="control-label" for="url">Website</label>
+	<div class="controls">
+		<input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="40" tabindex="3" class="input-xlarge" />
 	</div>
 </div>
 
 
 <?php endif; ?>
 
-<div class="clearfix">
-	<label for="comment">Comment</label>
-	<div class="input">
-		<textarea name="comment" id="comment" cols="60" rows="10" tabindex="4" class="xxlarge"></textarea>
+<div class="control-group">
+	<label class="control-label" for="comment">Comment</label>
+	<div class="controls">
+		<textarea name="comment" id="comment" cols="60" rows="10" tabindex="4" class="input-xxlarge"></textarea>
 	</div>
 </div>
 
-<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" class="btn primary" />
-<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
-</p>
+<div class="form-actions">
+	<input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" class="btn btn-success" />
+	<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
+</div>
 
 <?php do_action('comment_form', $post->ID); ?>
 
 </form>
+
+</fieldset>
 
 <?php endif; // If registration required and not logged in ?>
 

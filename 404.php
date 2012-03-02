@@ -7,7 +7,7 @@ get_header();
 		<h1>404 Error<small> - Houston, we have a problem</small></h1>
         </div>
         <div class="row">
-          <div class="span10">
+          <div class="span9">
 		<p class="timestamp">No more to see here - <?=date("d/m-Y - H:i:s", time());?></p>
 		<p>We are very sorry to tell you, that you reached a dead end. There is no content on the adress you typed in. If you followed a link from another page, please tell us where you came from.<br />
 		We suggest you to try clicking on another link on the site, or use the form below to search for what you where looking for.
@@ -24,3 +24,5 @@ get_header();
 		</form>
 	</div>
 <?php get_sidebar(); ?>
+	</div>
+      <?php get_footer(); ?>

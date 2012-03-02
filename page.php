@@ -10,7 +10,7 @@ get_header();
 		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h1><?php the_title(); ?></h1></a>
         </div>
         <div class="row">
-          <div class="span10">
+          <div class="span9">
 		<?php the_content(); ?>
 
 		<?php endwhile; ?>
@@ -26,7 +26,7 @@ get_header();
 		<h1>This is a dead end..<small> - Looks like somebody ate the post..</small></h1>
         </div>
         <div class="row">
-          <div class="span10">
+          <div class="span9">
 		<!-- If no post is found. This is the 404-page -->
 			<p class="timestamp">No more to see here - <?=date("d/m-Y - H:i:s", time());?></p>
 			<p>We are very sorry to tell you, that you reached a dead end. There is no content on the adress you typed in. If you followed a link from another page, please tell us where you came from.<br />
@@ -39,8 +39,7 @@ get_header();
 				<input type="submit" value="Search" />
 			</form>
 		</div>
-	</div>
-
-
 	<?php endif; ?>
-<?php get_sidebar(); ?>
+      <?php get_sidebar(); ?>
+	</div>
+      <?php get_footer(); ?>
