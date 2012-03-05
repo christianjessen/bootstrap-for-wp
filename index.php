@@ -15,7 +15,7 @@ get_header();
 		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><h2><?php the_title(); ?></h2></a>
 		<p class="timestamp">By <?php the_author_meta("first_name"); ?> <?php the_author_meta("last_name"); ?> - <?php the_date() ?> @ <?php the_time() ?> - <?php comments_popup_link('Comment on this &#187;', '1 Comment &#187;', '% Comments &#187;'); ?></p>
 		<?php /*  - <?php the_category(', ') ?> */?>
-		<?php the_content(); ?>
+		<?php the_excerpt(); ?>
 
 
 		<hr />
