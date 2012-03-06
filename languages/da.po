@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Christian Jessen <christian@jessen.pe>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: bootstrap-wp-theme/comments.php:24
+msgid "% Responses"
+msgstr "% Svar"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:86
+#: bootstrap-wp-theme/comments.php:94
+msgid "(required)"
+msgstr "(påkrævet)"
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:7
+msgid "404 Error"
+msgstr "404 Fejl"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:112
+msgid "Comment"
+msgstr "Kommentar"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:62
+msgid "Comments are closed"
+msgstr "Lukket for kommentarer"
+
+#. Text in function
+#: bootstrap-wp-theme/comments.php:37
+msgid "Edit Comment"
+msgstr "Rediger kommentar"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:8
+msgid "Enter the password to view comments."
+msgstr "Indtast kodeordet for at se kommentarerne."
+
+#. Text in echo
+#: bootstrap-wp-theme/single.php:18
+msgid "Filed under&#58;"
+msgstr "Gemt under&#58;"
+
+#. Text in echo
+#: bootstrap-wp-theme/header.php:73
+msgid "Home"
+msgstr "Forside"
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:7
+msgid "Houston, we have a problem"
+msgstr "Ups, vi har vidst problemer"
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:18
+#: bootstrap-wp-theme/page.php:38
+#: bootstrap-wp-theme/single.php:46
+#: bootstrap-wp-theme/index.php:38
+msgid "Keyword"
+msgstr "Søgeord"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:70
+msgid "Leave a Reply"
+msgstr "Læg en kommentar"
+
+#. Text in function
+#: bootstrap-wp-theme/comments.php:81
+msgid "Logged in as <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>. <a href=\"%1$s/wp-login.php?action=logout\" title=\"Log out of this account\">Logout &raquo;</a>"
+msgstr "Logget ind som <a href=\"%1$s/wp-admin/profile.php\">%2$s</a>. <a href=\"%1$s/wp-login.php?action=logout\" title=\"Log af denne konto\">Log af &raquo;</a>"
+
+#. Text in echo
+#: bootstrap-wp-theme/page.php:26
+#: bootstrap-wp-theme/single.php:34
+msgid "Looks like somebody ate the post.."
+msgstr "En eller anden har spist indlægget!"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:94
+msgid "Mail"
+msgstr "Email"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:86
+msgid "Name"
+msgstr "Navn"
+
+#. Text in function
+#: bootstrap-wp-theme/page.php:19
+msgid "Next page"
+msgstr "Næste side"
+
+#. Text in function
+#: bootstrap-wp-theme/comments.php:24
+msgid "No Responses"
+msgstr "Ingen svar"
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:11
+#: bootstrap-wp-theme/page.php:31
+#: bootstrap-wp-theme/single.php:39
+msgid "Nothing to see here"
+msgstr "Intet at se her, passer gaden!"
+
+#. Text in function
+#: bootstrap-wp-theme/comments.php:24
+msgid "One Response"
+msgstr "Et svar"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:7
+msgid "Password Protected"
+msgstr "Beskyttet med kodeord"
+
+#. Text in echo
+#: bootstrap-wp-theme/index.php:33
+msgid "Perhaps you should try searching for something else?"
+msgstr "Måske burde du prøve og søge efter noget andet?"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:89
+msgid "Please input your real name for a decent debate..."
+msgstr "Indtast venligst dit rigtige navn så vi kan få en god debat..."
+
+#. Text in function
+#: bootstrap-wp-theme/page.php:19
+msgid "Previous page"
+msgstr "Forrige side"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:37
+msgid "Said&#58;"
+msgstr "Sagde&#58;"
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:23
+#: bootstrap-wp-theme/page.php:43
+#: bootstrap-wp-theme/single.php:51
+#: bootstrap-wp-theme/index.php:43
+msgid "Search"
+msgstr "Søg"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:119
+msgid "Submit Comment"
+msgstr "Gem kommentar"
+
+#. Text in echo
+#: bootstrap-wp-theme/page.php:26
+#: bootstrap-wp-theme/single.php:34
+msgid "This is a dead end.."
+msgstr "Du er kommet til vejs ende!"
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:12
+#: bootstrap-wp-theme/page.php:32
+#: bootstrap-wp-theme/single.php:40
+msgid "We are very sorry to tell you, that you reached a dead end. There is no content on the adress you typed in. If you followed a link from another page, please tell us where you came from."
+msgstr "Vi beklager, men det er desværre ikke mere at se her. Det er simpelthen umuligt at finde det du søgt! Hvis du fulgte et link fra en anden side, må du meget gerne fortælle os hvor du kom fra."
+
+#. Text in echo
+#: bootstrap-wp-theme/404.php:13
+#: bootstrap-wp-theme/page.php:33
+#: bootstrap-wp-theme/single.php:41
+msgid "We suggest you to try clicking on another link on the site, or use the form below to search for what you where looking for."
+msgstr "Vi foreslår at du prøver at klikke på et andet link, eller eventuelt indtaster et søgeord i formen herunder, så lover vi at vi gør vores bedste for at finde det du leder efter!"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:102
+msgid "Website"
+msgstr "Hjemmeside"
+
+#. Text in echo
+#: bootstrap-wp-theme/single.php:14
+msgid "Written by"
+msgstr "Skrevet af"
+
+#. Text in function
+#: bootstrap-wp-theme/comments.php:74
+msgid "You must be <a href=\"%1$s/wp-login.php?redirect_to=%2$s\">logged in</a> to post a comment."
+msgstr "Du skal være <a href=\"%1$s/wp-login.php?redirect_to=%2$s\">logget ind</a> for at skrive en kommentar."
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:39
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar bliver godkendt hurtigst muligt."
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:97
+msgid "Your email will not be published"
+msgstr "Din email adresse bliver ikke vist"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:37
+msgid "at"
+msgstr " &nbsp; "
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:37
+msgid "on"
+msgstr "på"
+
+#. Text in echo
+#: bootstrap-wp-theme/comments.php:24
+msgid "to"
+msgstr "til"
+
