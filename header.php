@@ -70,7 +70,7 @@ if (is_home()) {
 	  
           <div class="nav-collapse pull-right">
             <ul class="nav">
-		<li><a href="<?php echo get_settings('home'); ?>/">Home</a></li>
+		<li><a href="<?php echo get_settings('home'); ?>/"><?php _e('Home', 'bootstrap-for-wp'); ?></a></li>
 		<?php wp_list_pages('title_li=&sort_column=menu_order&depth=1'); ?>
             </ul>
           </div><!--/.nav-collapse -->

@@ -30,17 +30,17 @@ get_header();
 	<?php else : ?>
 	<!-- If no post is found. This is the 404-page -->
 		<p>
-			Perhaps you should try searching for something else?
+			<?php _e('Perhaps you should try searching for something else?', 'bootstrap-for-wp'); ?>
 		</p>
 		<br />
 		<form action="<?php bloginfo('home'); ?>/" method="get" class="form-stacked">
 			<div class="clearfix">
-				<label for="s">Keyword</label>
+				<label for="s"><?php _e('Keyword', 'bootstrap-for-wp'); ?></label>
 				<div class="input">
 					<input type="text" name="s" id="s" value="" size="40" tabindex="1" class="xlarge" />
 				</div>
 			</div>
-			<input type="submit" value="Search" class="btn primary xlarge" />
+			<input type="submit" value="<?php _e('Search', 'bootstrap-for-wp'); ?>" class="btn primary xlarge" />
 		</form>
 	<?php endif; ?>
 	</div>
