@@ -24,6 +24,9 @@ input { outline: none; }
  */
 .content p.timestamp { font-size: 80%; padding: 0; color: gray; font-style: italic; }
 
+div.breadcrumbs { margin: 0 0 10px 0; font-size: 85%; font-weight: bold; color: gray; }
+div.breadcrumbs a, div.breadcrumbs a:hover { color: #000000; }
+
 /*
  * WP-POSTS-LIST
  * The list of posts on the frontpage, search pages or category/tags pages
