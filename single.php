@@ -11,6 +11,13 @@ get_header();
         <div class="row">
           <div class="span9">
 
+          	<div class="breadcrumbs">
+			    <?php if(function_exists('bcn_display'))
+			    {
+			        bcn_display();
+			    }?>
+			</div>
+
 		<p class="timestamp"><?php _e('Written by', 'bootstrap-for-wp'); ?> <?php the_author_meta("first_name"); ?> <?php the_author_meta("last_name"); ?> - <?php the_date() ?> @ <?php the_time() ?></p>
 		<?php the_content(); ?>
 		<br /><br />
