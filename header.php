@@ -65,7 +65,7 @@ if (is_home()) {
 	  <a class="brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 	  
 	  <form class="navbar-search" method="get" action="<?php bloginfo('home'); ?>/">
-	    <input type="text" class="search-query" name="s" id="s" placeholder="Search">
+	    <input type="text" class="search-query" name="s" id="s" placeholder="<?php _e('Search', 'bootstrap-for-wp'); ?>">
 	  </form>
 	  
           <div class="nav-collapse pull-right">
